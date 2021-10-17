@@ -1,0 +1,4 @@
+include ':product'
+include ':product-composite'
+include ':recommendation'
+include ':review'
