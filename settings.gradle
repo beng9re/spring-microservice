@@ -3,4 +3,5 @@ include ':microService:product-composite'
 include ':microService:recommendation'
 include ':microService:review'
 include 'api'
+include 'util'
 
