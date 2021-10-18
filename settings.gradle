@@ -1,4 +1,6 @@
-include ':product'
-include ':product-composite'
-include ':recommendation'
-include ':review'
+include ':microService:product'
+include ':microService:product-composite'
+include ':microService:recommendation'
+include ':microService:review'
+include 'api'
+
