@@ -1,4 +1,4 @@
-package com.study.microservice.api.core.product;
+package com.study.microservice.core.api.product;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +10,6 @@ public interface ProductService {
 		value = "/product/{productId}",
 		produces = MediaType.APPLICATION_JSON_VALUE
 	)
-	com.study.microservice.api.core.product.Product getProduct(@PathVariable int productId);
+	Product getProduct(@PathVariable int productId);
 
 }
