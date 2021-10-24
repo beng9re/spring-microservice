@@ -42,7 +42,7 @@ public class ProductAggregate {
 		return recommendations;
 	}
 
-	public List<ReviewSummary> getReviews() {
+	public List<ReviewSummary> getws() {
 		return reviews;
 	}
 
