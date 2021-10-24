@@ -1,10 +1,9 @@
 package com.study.microservice.product.services;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.study.microservice.core.api.product.Product;
-import com.study.microservice.core.api.product.ProductService;
+import com.study.microservice.api.core.product.Product;
+import com.study.microservice.api.core.product.ProductService;
 import com.study.microservice.core.util.http.ServiceUtil;
 
 @RestController

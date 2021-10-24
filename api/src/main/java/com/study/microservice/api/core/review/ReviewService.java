@@ -1,4 +1,4 @@
-package com.study.microservice.core.api.review;
+package com.study.microservice.api.core.review;
 
 import java.util.List;
 

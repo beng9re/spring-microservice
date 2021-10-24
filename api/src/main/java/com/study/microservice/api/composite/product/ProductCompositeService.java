@@ -1,15 +1,14 @@
-package com.study.microservice.core.api.product;
+package com.study.microservice.api.composite.product;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-public interface ProductService {
+public interface ProductCompositeService {
 
 	@GetMapping(
-		value = "/product/{productId}",
+		value = "/product-composit/{productId}",
 		produces = MediaType.APPLICATION_JSON_VALUE
 	)
-	Product getProduct(@PathVariable int productId);
-
+	ProductAggregate getProduct(@PathVariable int productId);
 }

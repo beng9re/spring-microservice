@@ -1,4 +1,4 @@
-package com.study.microservice.core.api.recommendation;
+package com.study.microservice.api.core.recommendation;
 
 import java.util.List;
 

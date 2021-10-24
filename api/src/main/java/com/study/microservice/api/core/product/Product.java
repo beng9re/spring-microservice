@@ -1,4 +1,4 @@
-package com.study.microservice.core.api.product;
+package com.study.microservice.api.core.product;
 
 public class Product {
 	private final int productId;
